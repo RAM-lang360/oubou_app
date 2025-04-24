@@ -51,7 +51,7 @@ if st.button("確定"):
     st.write("")
     st.write("")
     # 結合した文字列を表示
-    combined_label = " ".join(selected0 + selected1)
+    combined_label = " ".join(selected0 +" "+selected1)
     st.markdown(
         f"""
         <div style='
