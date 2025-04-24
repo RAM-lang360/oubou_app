@@ -36,8 +36,8 @@ with col2:
             unsafe_allow_html=True)
 
 # ユーザーの選択
-selected0 = st.multiselect("上文字", st.session_state.left_strings, default=[])
-selected1 = st.multiselect("下文字", st.session_state.right_strings, default=[])
+selected0 = st.selectbox("上文字", st.session_state.left_strings)
+selected1 = st.selectbox("下文字", st.session_state.right_strings)
 
 # 確定ボタン
 # 確定ボタン
